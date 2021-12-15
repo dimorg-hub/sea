@@ -537,7 +537,6 @@ body {
 		font-weight: 300;
 		padding: 5px;
 
-
 		&::before {
 			content: '';
 			position: absolute;
@@ -745,7 +744,7 @@ body {
 //!-----------------------------------reviews
 
 .reviews {
-	background-image: url(/image/ellipse1.png);
+	background-image: url(../image/ellipse1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -756,7 +755,6 @@ body {
 	@media(max-width:1024px) {
 		padding-top: 0px;
 	}
-
 
 	&__title {
 		padding-top: 100px;
@@ -788,8 +786,6 @@ body {
 		flex-direction: column;
 		position: relative;
 		margin-right: 20px;
-
-
 
 		&::before {
 			content: '"';
@@ -903,8 +899,6 @@ body {
 			transition: all 0.4s;
 			box-shadow: 0 0 0 5px transparent;
 
-
-
 			&:hover {
 				background-color: #ffff00;
 				box-shadow: 0 0 0 5px #ffff00;
@@ -915,7 +909,6 @@ body {
 			background-color: #4d50ec;
 			box-shadow: 0 0 0 5px #ffff00;
 		}
-
 	}
 
 	.slick-dots button:visited {
@@ -1040,7 +1033,6 @@ body {
 			transform: rotate(315deg);
 		}
 
-
 		&::after {
 			content: '';
 			position: absolute;
@@ -1119,10 +1111,7 @@ body {
 	transition: all 0.4s;
 	left: 150%;
 
-
 	&__text {
 		min-height: 220px;
 	}
-
-
 }

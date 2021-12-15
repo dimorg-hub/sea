@@ -879,7 +879,7 @@ body {
 }
 
 .reviews {
-  background-image: url(/image/ellipse1.png);
+  background-image: url(../image/ellipse1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
